@@ -1,0 +1,32 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "gitpulse-mcp",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-01-01",
+	"compatibility_flags": ["nodejs_compat"],
+	"observability": {
+		"enabled": true,
+	},
+	"durable_objects": {
+		"bindings": [
+			{
+				"name": "MCP_OBJECT",
+				"class_name": "GitPulseMCP",
+			},
+		],
+	},
+	"migrations": [
+		{
+			"tag": "v1",
+			"new_sqlite_classes": ["GitPulseMCP"],
+		},
+	],
+	"kv_namespaces": [
+		{
+			"binding": "GITPULSE_CACHE",
+			"id": "REPLACE_WITH_KV_NAMESPACE_ID",
+		},
+	],
+	// GITHUB_TOKEN is NOT set here — it is a secret, set via `wrangler secret put GITHUB_TOKEN`.
+	// Never add it to `vars` since this file is committed to a public repo.
+}
