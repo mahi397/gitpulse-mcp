@@ -1,0 +1,29 @@
+[
+	{
+		"number": 201,
+		"title": "Add p90 calculation",
+		"url": "https://github.com/acme/widgets/pull/201",
+		"author": "alice",
+		"createdAt": "2026-06-01T09:00:00Z",
+		"firstReviewAt": "2026-06-01T13:00:00Z",
+		"mergedAt": "2026-06-02T09:00:00Z"
+	},
+	{
+		"number": 202,
+		"title": "Refactor cache key hashing",
+		"url": "https://github.com/acme/widgets/pull/202",
+		"author": "bob",
+		"createdAt": "2026-06-03T09:00:00Z",
+		"firstReviewAt": "2026-06-03T21:00:00Z",
+		"mergedAt": "2026-06-10T09:00:00Z"
+	},
+	{
+		"number": 203,
+		"title": "Docs typo fix",
+		"url": "https://github.com/acme/widgets/pull/203",
+		"author": "carol",
+		"createdAt": "2026-06-05T09:00:00Z",
+		"firstReviewAt": null,
+		"mergedAt": "2026-06-05T15:00:00Z"
+	}
+]

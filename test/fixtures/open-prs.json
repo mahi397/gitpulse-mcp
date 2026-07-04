@@ -1,0 +1,29 @@
+[
+	{
+		"number": 101,
+		"title": "Add dark mode toggle",
+		"author": "alice",
+		"url": "https://github.com/acme/widgets/pull/101",
+		"createdAt": "2026-05-20T10:00:00Z",
+		"lastActivityAt": "2026-06-15T09:00:00Z",
+		"requestedReviewers": ["bob"]
+	},
+	{
+		"number": 102,
+		"title": "Fix flaky checkout test",
+		"author": "carol",
+		"url": "https://github.com/acme/widgets/pull/102",
+		"createdAt": "2026-06-25T10:00:00Z",
+		"lastActivityAt": "2026-06-30T09:00:00Z",
+		"requestedReviewers": []
+	},
+	{
+		"number": 103,
+		"title": "Bump dependency versions",
+		"author": "dave",
+		"url": "https://github.com/acme/widgets/pull/103",
+		"createdAt": "2026-07-01T10:00:00Z",
+		"lastActivityAt": "2026-07-02T09:00:00Z",
+		"requestedReviewers": ["alice", "carol"]
+	}
+]

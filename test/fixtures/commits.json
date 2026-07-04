@@ -1,0 +1,8 @@
+[
+	{ "sha": "a1", "message": "GP-10: add caching layer", "authorLogin": "alice", "authoredDate": "2026-06-01T10:00:00Z" },
+	{ "sha": "a2", "message": "GP-11: fix rate limit retry", "authorLogin": "alice", "authoredDate": "2026-06-02T10:00:00Z" },
+	{ "sha": "a3", "message": "wip", "authorLogin": "bob", "authoredDate": "2026-06-03T10:00:00Z" },
+	{ "sha": "a4", "message": "GP-12: add stale PR tool", "authorLogin": "carol", "authoredDate": "2026-06-09T10:00:00Z" },
+	{ "sha": "a5", "message": "fix typo", "authorLogin": "bob", "authoredDate": "2026-06-10T10:00:00Z" },
+	{ "sha": "a6", "message": "GP-13: add review bottleneck tool", "authorLogin": "carol", "authoredDate": "2026-06-11T10:00:00Z" }
+]
